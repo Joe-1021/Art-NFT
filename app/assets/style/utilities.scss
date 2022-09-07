@@ -6,6 +6,9 @@ img{
 ol,ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 .btn-triangle {
     position: relative;
     &:after{
@@ -32,4 +35,18 @@ ol,ul{
     background-color: #E6553B;
     color: white;
   }
+}
+.btn-title-more{
+    margin-bottom: -18px;
+}
+
+.border-StoE{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+}
+.border-lg-StoE{
+    @include media-breakpoint-up(lg){
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
 }

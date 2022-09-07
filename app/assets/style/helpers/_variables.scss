@@ -87,7 +87,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "black":      $black,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -442,7 +443,7 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 
 $line-height-base:            1.5 !default;
-$line-height-sm:              1.25 !default;
+$line-height-sm:              1 !default;
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 3 !default;

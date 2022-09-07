@@ -1,25 +1,24 @@
 .recommend{
+    &-title{
+        width: 100px;
+    }
     @include media-breakpoint-up(lg){
-        .card-1{
-            img{
-               width: 756px;
-                height: 500px; 
-            }
-            
-        }
+    
         .card-2{
             margin-top: -1px;
             img{
-                width: 329px;
                 height: 340px;
+                overflow: hidden;
             }
+            
         }
         .card-3{
             margin-top: -1px;
             margin-left: -1px;
             img{
-                width: 329px;
+                width: 100%;
                 height: 340px;
+                overflow: hidden; 
             }
         }
     }
@@ -27,19 +26,112 @@
 }
 
 .ranking{
-    a{
+    .title-btn-more{
         margin-bottom: -1px;
         @include media-breakpoint-up(lg){
             margin-bottom: -24px;
         }
     }
+    &-img{
+        width: 87px;
+        height: 93px;
+        overflow:hidden ;
+    }
+    .img-md-hover{
+        position: relative;
+        background: #000;
+        &:hover{
+            &::after{
+                position: absolute;
+                content:'more';
+                font-size: 18px;
+                top:0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0.5;
+                color:white;
+            }
+            .triangle{
+                display: block;
+                z-index: 1;
+            }
+        }
+    }
     .card-img{
         width: 87px;
-        height: 91px;
-        @include media-breakpoint-up(md){
+        height: 93px;
+        overflow: hidden;
+        @include media-breakpoint-up(lg){
             width: 100%;
-            height: 374px;
+            height: 100%;
         }
+        img{
+            width: 100%;
+            height: 93px;
+            @include media-breakpoint-up(lg){
+                width: 100%;
+                height: 374px; 
+                border-left: 0px;
+                border-right: 0px;   
+            }   
+        }
+    }
+    .img-hover{
+        position: relative;
+        background: #000;
+        @include media-breakpoint-down(md){
+            &:hover{
+                &::after{
+                    position: absolute;
+                    content:'more';
+                    top:0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    background: #000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0.5;
+                    color:white;
+                }
+                .triangle{
+                    display: block;
+                    z-index: 1;
+                }
+             }
+        }
+        @include media-breakpoint-up(lg){
+            &:hover{
+                background: #000;
+                opacity: 0.5;
+                .btn-more{
+                    display: block;
+                }
+            }
+        }
+     .btn-more{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: none;
+     }    
+}
+    .triangle{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: none;
+        //三角形
+        width: 0;
+        height: 0;
+        border-right: 16px solid $primary;
+        border-top: 16px solid transparent;
     }
     .card-num{
         @include media-breakpoint-up(md){
@@ -49,10 +141,13 @@
             background: white;
             top:0;
             left:0;
+            z-index: 1;
             font-size: 32px;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
         }
     }
 }

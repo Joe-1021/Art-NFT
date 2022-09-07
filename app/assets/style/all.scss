@@ -5,7 +5,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async');
+
+
+@import './swiper.scss';
+
 @import './utilities';
 @import './mixin';
 @import './layout/_layout';
