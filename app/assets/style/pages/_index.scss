@@ -2,15 +2,20 @@
     &-title{
         width: 100px;
     }
+
+    .card-2,.card-3{
+        img{
+            height: 372px;
+            width: 100%;
+        }
+    }
     @include media-breakpoint-up(lg){
-    
         .card-2{
             margin-top: -1px;
             img{
                 height: 340px;
                 overflow: hidden;
-            }
-            
+            }  
         }
         .card-3{
             margin-top: -1px;
@@ -134,7 +139,7 @@
         border-top: 16px solid transparent;
     }
     .card-num{
-        @include media-breakpoint-up(md){
+        @include media-breakpoint-up(lg){
             position:absolute;
             width: 64px;
             height: 64px;

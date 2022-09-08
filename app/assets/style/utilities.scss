@@ -37,7 +37,11 @@ a{
   }
 }
 .btn-title-more{
-    margin-bottom: -18px;
+    background-color: $light;
+    margin-bottom: 0;
+    @include media-breakpoint-up(lg){
+        margin-bottom: -13px;
+    }
 }
 
 .border-StoE{
