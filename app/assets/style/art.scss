@@ -1,0 +1,112 @@
+.border-lg-bottom{
+    @include media-breakpoint-up(lg){
+        border-bottom: 1px solid black;
+    }
+}
+.art-09{
+    width: 140px;
+    height: 139px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 254px;
+    }
+}
+
+.art-10{
+    width: 140px;
+    height: 151px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 327px;
+    }
+}
+
+.art-02{
+    width: 140px;
+    height: 93px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 254px;
+    }
+}
+
+.art-11{
+    width: 140px;
+    height: 173px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 169px;
+    }
+}
+
+.art-12{
+    width: 140px;
+    height: 192px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 174px;
+    }
+}
+
+.art-03{
+    width: 140px;
+    height: 99px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 254px;
+    }
+}
+
+.art-04{
+    width: 140px;
+    height: 139px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height:395px;
+    }
+}
+
+.art-27{
+    width: 140px;
+    height: 185px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 254px;
+    }
+}
+
+.art-19{
+    width: 140px;
+    height: 173px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 334px;
+    }
+}
+
+.art-16{
+    width: 140px;
+    height: 97px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 254px;
+    }
+}
+
+.art-15{
+    width: 140px;
+    height: 174px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 326px;
+    }
+}
+
+.art-06{
+    width: 140px;
+    height: 160px;
+    @include media-breakpoint-up(lg){
+        width: 258px;
+        height: 340px;
+    }
+}
