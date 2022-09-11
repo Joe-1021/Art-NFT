@@ -165,18 +165,4 @@
             margin-bottom: -24px;
         }
     }
-   .card-img{
-    position: relative;
-   } 
-   .img-hover{
-    position: absolute;
-    opacity: 0;
-    top:0;
-    left:0;
-    background-color: rgba(0, 0, 0, .3);
-    &:hover{
-        opacity: 1;
-        transition: opacity 0.8s;
-    }
-   }
 }

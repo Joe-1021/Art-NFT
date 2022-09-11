@@ -1,6 +1,6 @@
 .logo a{
     background-image: url('../images/logo.svg');
-    width: 85px;
+    width: 100px;
     height: 18px;
     background-size: cover;
     text-indent: 101%;
@@ -13,7 +13,10 @@
     }
 }
 .form-control{
-    width: 288px;
+    @include media-breakpoint-up(xl){
+       width: 288px; 
+    }
+    
 }
 
 .border-lg-bottom-0{
@@ -30,5 +33,10 @@
         width: 16px;
         height: 16px;
         margin-right: 16px;
+    }
+    .btn-outline-black:hover{
+        border-color: $primary;
+        background:white;
+        color:black
     }
 }

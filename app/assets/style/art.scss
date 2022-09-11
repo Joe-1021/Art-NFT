@@ -3,110 +3,126 @@
         border-bottom: 1px solid black;
     }
 }
+.Masonry-img{
+        position: relative;
+        .img-hover{
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        right: 24px;
+        bottom: 24px;
+        display: none;
+        opacity: 0;
+        &:hover{
+            display: block;
+            background-color: rgba(0, 0, 0, .3);
+            opacity: 1; 
+            transition: opacity 0.8s;
+        }
+        }
+    }
+    
 .art-09{
-    width: 140px;
+   width: 100%;
     height: 139px;
     @include media-breakpoint-up(lg){
-        width: 258px;
         height: 254px;
     }
 }
 
 .art-10{
-    width: 140px;
+   width: 100%;
     height: 151px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 327px;
     }
 }
 
 .art-02{
-    width: 140px;
+   width: 100%;
     height: 93px;
-    @include media-breakpoint-up(lg){
-        width: 258px;
+    @include media-breakpoint-up(lg){  
         height: 254px;
     }
 }
 
 .art-11{
-    width: 140px;
+   width: 100%;
     height: 173px;
     @include media-breakpoint-up(lg){
-        width: 258px;
         height: 169px;
     }
 }
 
 .art-12{
-    width: 140px;
+   width: 100%;
     height: 192px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 174px;
     }
 }
 
 .art-03{
-    width: 140px;
+   width: 100%;
     height: 99px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 254px;
     }
 }
 
 .art-04{
-    width: 140px;
+   width: 100%;
     height: 139px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height:395px;
     }
 }
 
 .art-27{
-    width: 140px;
+   width: 100%;
     height: 185px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 254px;
     }
 }
 
 .art-19{
-    width: 140px;
+   width: 100%;
     height: 173px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 334px;
     }
 }
 
 .art-16{
-    width: 140px;
+   width: 100%;
     height: 97px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 254px;
     }
 }
 
 .art-15{
-    width: 140px;
+   width: 100%;
     height: 174px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 326px;
     }
 }
 
 .art-06{
-    width: 140px;
+   width: 100%;
     height: 160px;
     @include media-breakpoint-up(lg){
-        width: 258px;
+        
         height: 340px;
     }
 }
