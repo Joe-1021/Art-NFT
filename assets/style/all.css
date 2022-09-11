@@ -12596,146 +12596,157 @@ fieldset:disabled .btn {
   }
 }
 
+.Masonry-img {
+  position: relative;
+}
+
+.Masonry-img .img-hover {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  display: none;
+  opacity: 0;
+}
+
+.Masonry-img .img-hover:hover {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  -webkit-transition: opacity 0.8s;
+  -o-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+
 .art-09 {
-  width: 140px;
+  width: 100%;
   height: 139px;
 }
 
 @media (min-width: 992px) {
   .art-09 {
-    width: 258px;
     height: 254px;
   }
 }
 
 .art-10 {
-  width: 140px;
+  width: 100%;
   height: 151px;
 }
 
 @media (min-width: 992px) {
   .art-10 {
-    width: 258px;
     height: 327px;
   }
 }
 
 .art-02 {
-  width: 140px;
+  width: 100%;
   height: 93px;
 }
 
 @media (min-width: 992px) {
   .art-02 {
-    width: 258px;
     height: 254px;
   }
 }
 
 .art-11 {
-  width: 140px;
+  width: 100%;
   height: 173px;
 }
 
 @media (min-width: 992px) {
   .art-11 {
-    width: 258px;
     height: 169px;
   }
 }
 
 .art-12 {
-  width: 140px;
+  width: 100%;
   height: 192px;
 }
 
 @media (min-width: 992px) {
   .art-12 {
-    width: 258px;
     height: 174px;
   }
 }
 
 .art-03 {
-  width: 140px;
+  width: 100%;
   height: 99px;
 }
 
 @media (min-width: 992px) {
   .art-03 {
-    width: 258px;
     height: 254px;
   }
 }
 
 .art-04 {
-  width: 140px;
+  width: 100%;
   height: 139px;
 }
 
 @media (min-width: 992px) {
   .art-04 {
-    width: 258px;
     height: 395px;
   }
 }
 
 .art-27 {
-  width: 140px;
+  width: 100%;
   height: 185px;
 }
 
 @media (min-width: 992px) {
   .art-27 {
-    width: 258px;
     height: 254px;
   }
 }
 
 .art-19 {
-  width: 140px;
+  width: 100%;
   height: 173px;
 }
 
 @media (min-width: 992px) {
   .art-19 {
-    width: 258px;
     height: 334px;
   }
 }
 
 .art-16 {
-  width: 140px;
+  width: 100%;
   height: 97px;
 }
 
 @media (min-width: 992px) {
   .art-16 {
-    width: 258px;
     height: 254px;
   }
 }
 
 .art-15 {
-  width: 140px;
+  width: 100%;
   height: 174px;
 }
 
 @media (min-width: 992px) {
   .art-15 {
-    width: 258px;
     height: 326px;
   }
 }
 
 .art-06 {
-  width: 140px;
+  width: 100%;
   height: 160px;
 }
 
 @media (min-width: 992px) {
   .art-06 {
-    width: 258px;
     height: 340px;
   }
 }
@@ -12814,7 +12825,7 @@ a {
 
 .logo a {
   background-image: url("../images/logo.svg");
-  width: 85px;
+  width: 100px;
   height: 18px;
   background-size: cover;
   text-indent: 101%;
@@ -12830,8 +12841,10 @@ a {
   }
 }
 
-.form-control {
-  width: 288px;
+@media (min-width: 1200px) {
+  .form-control {
+    width: 288px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -12848,6 +12861,12 @@ a {
   width: 16px;
   height: 16px;
   margin-right: 16px;
+}
+
+.modal-body .btn-outline-black:hover {
+  border-color: #E6553B;
+  background: white;
+  color: black;
 }
 
 .recommend-title {
@@ -13045,48 +13064,6 @@ a {
   .artwork .more {
     margin-bottom: -24px;
   }
-}
-
-.artwork .card-img {
-  position: relative;
-}
-
-.artwork .img-hover {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.artwork .img-hover:hover {
-  opacity: 1;
-  -webkit-transition: opacity 0.8s;
-  -o-transition: opacity 0.8s;
-  transition: opacity 0.8s;
-}
-
-.explore-img {
-  position: relative;
-}
-
-.explore-img .img-hover {
-  position: absolute;
-  top: 24px;
-  left: 24px;
-  right: 24px;
-  bottom: 24px;
-  display: none;
-  opacity: 0;
-}
-
-.explore-img .img-hover:hover {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.3);
-  opacity: 1;
-  -webkit-transition: opacity 0.8s;
-  -o-transition: opacity 0.8s;
-  transition: opacity 0.8s;
 }
 
 /*# sourceMappingURL=all.css.map */
