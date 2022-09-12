@@ -13066,4 +13066,51 @@ a {
   }
 }
 
+.myswiper {
+  width: 100%;
+  height: 100%;
+}
+
+.myswiper .swiper-img {
+  position: relative;
+  width: 100%;
+}
+
+.myswiper .swiper-img img {
+  height: 232px;
+}
+
+@media (min-width: 992px) {
+  .myswiper .swiper-img img {
+    height: 439px;
+  }
+}
+
+.myswiper .swiper-img .img-cover {
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+}
+
+@media (min-width: 1200px) {
+  .myswiper .swiper-img .img-cover {
+    height: 100%;
+  }
+  .myswiper .swiper-img .img-cover h3, .myswiper .swiper-img .img-cover .h3 {
+    width: 258px;
+    font-size: 80px !important;
+  }
+  .myswiper .swiper-img .swiper-body {
+    margin: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 307px;
+    opacity: 0.85;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */

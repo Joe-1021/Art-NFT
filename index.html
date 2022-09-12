@@ -237,6 +237,68 @@
         <a href="#" class="btn btn-triangle btn-white fs-5 border-0 px-7 py-1 btn-title-more">MORE</a>
       </div>
 
+      <div class="swiper myswiper ">
+          <div class="swiper-wrapper mb-7">
+            <div class="swiper-slide ">
+              <div class="swiper-img">
+                <img src="./assets/images/artist01.jpg" alt="" class="mb-3 img-fluid">
+                <div class="img-cover d-flex flex-column ">
+                  <h3 class="fs-2  mb-0 text-white">Antony Wu</h3>
+                  <div class="mt-auto text-end">
+                    <a href="#" class="btn btn-triangle btn-white px-7 py-1 ">MORE</a>
+                  </div>
+                </div>
+                <div class="swiper-body bg-white">
+                <p class="p-3 p-lg-4 mb-0">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</p>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-img">
+                <img src="./assets/images/artist02.jpg" alt="" class="mb-3">
+                <div class="img-cover d-flex flex-column ">
+                  <h3 class="fs-2  mb-0 text-white">Antony Wu</h3>
+                  <div class="mt-auto text-end">
+                    <a href="#" class="btn btn-triangle btn-white px-7 py-1 ">MORE</a>
+                  </div>
+                </div>
+                <div class="swiper-body bg-white">
+                <p class="p-3 p-lg-4 mb-0">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</p>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide  ">
+              <div class="swiper-img">
+                <img src="./assets/images/artist03.jpg" alt="" class="mb-3">
+                <div class="img-cover d-flex flex-column ">
+                  <h3 class="fs-2  mb-0 text-white">Antony Wu</h3>
+                  <div class="mt-auto text-end">
+                    <a href="#" class="btn btn-triangle btn-white px-7 py-1 ">MORE</a>
+                  </div>
+                </div>
+                <div class="swiper-body bg-white">
+                <p class="p-3 p-lg-4 mb-0">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</p>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide  ">
+              <div class="swiper-img">
+                <img src="./assets/images/artist04.jpg" alt="" class="mb-3">
+                <div class="img-cover d-flex flex-column ">
+                  <h3 class="fs-2  mb-0 text-white">Antony Wu</h3>
+                  <div class="mt-auto text-end">
+                    <a href="#" class="btn btn-triangle btn-white px-7 py-1 ">MORE</a>
+                  </div>
+                </div>
+                <div class="swiper-body bg-white">
+                <p class="p-3 p-lg-4 mb-0">​喜愛大自然，創作題材常見大山、大水、花草與樹木。</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+      </div>
 
     </div>
 </section>
@@ -436,6 +498,33 @@
     </div>  
   </div>  
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.myswiper', {
+  loop: true,
+  speed:500,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  centeredSlides:true,
+  slidesPerView: 1,
+  spaceBetween: 24,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  effect: 'slide',
+  breakpoints: {
+    768: {
+      slidesPerView: 2.2,
+    },
+  },
+  grabCursor: true,
+});
+</script>
+
 
     <footer class="footer bg-light border-top  border-1 ">
       <div class="border-top border-4 mt-1">
