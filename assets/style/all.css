@@ -13179,4 +13179,8 @@ a {
   z-index: 5;
 }
 
+.triangle-minus a::after {
+  content: '-';
+}
+
 /*# sourceMappingURL=all.css.map */
