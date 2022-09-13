@@ -13147,4 +13147,36 @@ a {
   border-radius: 0%;
 }
 
+.Portfolio img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.triangle-plus {
+  position: relative;
+}
+
+.triangle-plus:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 32px solid transparent;
+  border-bottom: 32px solid black;
+}
+
+.triangle-plus:hover::after {
+  border-bottom: 32px solid #E6553B;
+}
+
+.triangle-plus a::after {
+  content: '+';
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  color: white;
+  z-index: 5;
+}
+
 /*# sourceMappingURL=all.css.map */
