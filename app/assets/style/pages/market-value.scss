@@ -1,0 +1,33 @@
+.Portfolio{
+    img{
+     width: 48px;
+     height: 48px;
+     margin-right: 16px;   
+    }    
+}
+.triangle-plus{
+    position: relative;
+    &:after{
+        content:'';
+        position:absolute;
+        right: 0;
+        bottom:0;
+        // color:white;
+        border-left: 32px solid transparent;
+        border-bottom: 32px solid black;
+    }
+    &:hover::after{
+        border-bottom: 32px solid $primary;
+    }
+    a{
+       &::after{
+        content:'+';
+        position:absolute;
+        right: 5px;
+        bottom:0;
+        color:white;
+        z-index: 5;
+    } 
+    }
+    
+}
