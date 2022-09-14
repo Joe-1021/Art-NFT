@@ -1,0 +1,52 @@
+.icon{
+    width: 21px;
+    height: 16px;
+    a{
+        color:black;
+        display: block;
+        &:hover{
+            color:$primary
+        }
+    }
+}
+.list-group-item{
+    border-color: black;
+}
+
+
+.nav-item{
+    a{
+        &:hover{
+            color:black !important;
+        }
+    }
+}
+.nav-tabs .nav-link.active{
+    color:black;
+    background:$primary;
+    border-color: black;
+    border-bottom-color: white;
+}
+.nav-link{
+    color:#808080;
+}
+
+.art-works-border{
+    padding:32px 16px 
+}
+
+.art-works-border{
+    @include media-breakpoint-up(lg){
+        height: 417px;
+        margin-bottom: 88px !important;
+    }
+}
+
+.img-frame{
+    border: 10px solid black; 
+    img{
+        width: 100%;
+        height: 250px;
+        
+    }
+}
