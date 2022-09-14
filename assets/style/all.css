@@ -13183,4 +13183,57 @@ a {
   content: '-';
 }
 
+.icon {
+  width: 21px;
+  height: 16px;
+}
+
+.icon a {
+  color: black;
+  display: block;
+}
+
+.icon a:hover {
+  color: #E6553B;
+}
+
+.list-group-item {
+  border-color: black;
+}
+
+.nav-item a:hover {
+  color: black !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: black;
+  background: #E6553B;
+  border-color: black;
+  border-bottom-color: white;
+}
+
+.nav-link {
+  color: #808080;
+}
+
+.art-works-border {
+  padding: 32px 16px;
+}
+
+@media (min-width: 992px) {
+  .art-works-border {
+    height: 417px;
+    margin-bottom: 88px !important;
+  }
+}
+
+.img-frame {
+  border: 10px solid black;
+}
+
+.img-frame img {
+  width: 100%;
+  height: 250px;
+}
+
 /*# sourceMappingURL=all.css.map */
