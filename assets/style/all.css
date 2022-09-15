@@ -13236,4 +13236,26 @@ a {
   height: 250px;
 }
 
+.border-triangle {
+  position: relative;
+}
+
+.border-triangle:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border-right: 24px solid transparent;
+  border-top: 24px solid black;
+}
+
+.border-triangle:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  border-left: 24px solid transparent;
+  border-top: 24px solid black;
+}
+
 /*# sourceMappingURL=all.css.map */
