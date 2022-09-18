@@ -12798,6 +12798,7 @@ a {
 .btn-white:hover {
   background-color: #E6553B;
   color: white;
+  border: 1px solid black !important;
 }
 
 .btn-title-more {
@@ -12873,37 +12874,20 @@ a {
   width: 100px;
 }
 
-.recommend .card-2 img, .recommend .card-3 img {
-  height: 372px;
-  width: 100%;
-}
-
-@media (min-width: 992px) {
-  .recommend .card-2 {
-    margin-top: -1px;
-  }
-  .recommend .card-2 img {
-    height: 340px;
-    overflow: hidden;
-  }
-  .recommend .card-3 {
-    margin-top: -1px;
-    margin-left: -1px;
-  }
-  .recommend .card-3 img {
-    width: 100%;
-    height: 340px;
-    overflow: hidden;
-  }
-}
-
-.ranking .title-btn-more {
+.recommend .card-1 {
   margin-bottom: -1px;
 }
 
+.recommend .card-2 img, .recommend .card-3 img {
+  height: 372px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (min-width: 992px) {
-  .ranking .title-btn-more {
-    margin-bottom: -24px;
+  .recommend .card-3 {
+    margin-left: -1px;
   }
 }
 
@@ -13117,6 +13101,8 @@ a {
 @media (min-width: 992px) {
   .swiper-slide-prev, .swiper-slide-next {
     width: 25% !important;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
   }
   .swiper-slide-prev img, .swiper-slide-next img {
     height: 262px !important;
